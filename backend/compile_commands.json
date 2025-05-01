@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/amarnath/Projects/brotherql800/backend",
+  "command": "/nix/store/f0m6caffiykyvsjim9376a3hx2yj2ghj-gcc-wrapper-14.2.1.20250322/bin/g++  -I/home/amarnath/Projects/brotherql800/backend/include -std=c++23 -o CMakeFiles/brotherql800.dir/src/main.cpp.o -c /home/amarnath/Projects/brotherql800/backend/src/main.cpp",
+  "file": "/home/amarnath/Projects/brotherql800/backend/src/main.cpp",
+  "output": "CMakeFiles/brotherql800.dir/src/main.cpp.o"
+}
+]
