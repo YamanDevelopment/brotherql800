@@ -1,8 +1,20 @@
 [
 {
   "directory": "/home/amarnath/Projects/brotherql800/backend",
-  "command": "/nix/store/f0m6caffiykyvsjim9376a3hx2yj2ghj-gcc-wrapper-14.2.1.20250322/bin/g++  -I/home/amarnath/Projects/brotherql800/backend/include -std=c++23 -o CMakeFiles/brotherql800.dir/src/main.cpp.o -c /home/amarnath/Projects/brotherql800/backend/src/main.cpp",
+  "command": "/nix/store/f0m6caffiykyvsjim9376a3hx2yj2ghj-gcc-wrapper-14.2.1.20250322/bin/g++  -I/home/amarnath/Projects/brotherql800/backend/include -I/home/amarnath/Projects/brotherql800/backend/deps -I/nix/store/2474w2chiwbxaalxin0m0hdhf18nb6zq-libusb-1.0.28-dev/include/libusb-1.0 -std=c++23 -o CMakeFiles/brotherql800.dir/src/image.cc.o -c /home/amarnath/Projects/brotherql800/backend/src/image.cc",
+  "file": "/home/amarnath/Projects/brotherql800/backend/src/image.cc",
+  "output": "CMakeFiles/brotherql800.dir/src/image.cc.o"
+},
+{
+  "directory": "/home/amarnath/Projects/brotherql800/backend",
+  "command": "/nix/store/f0m6caffiykyvsjim9376a3hx2yj2ghj-gcc-wrapper-14.2.1.20250322/bin/g++  -I/home/amarnath/Projects/brotherql800/backend/include -I/home/amarnath/Projects/brotherql800/backend/deps -I/nix/store/2474w2chiwbxaalxin0m0hdhf18nb6zq-libusb-1.0.28-dev/include/libusb-1.0 -std=c++23 -o CMakeFiles/brotherql800.dir/src/main.cpp.o -c /home/amarnath/Projects/brotherql800/backend/src/main.cpp",
   "file": "/home/amarnath/Projects/brotherql800/backend/src/main.cpp",
   "output": "CMakeFiles/brotherql800.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/amarnath/Projects/brotherql800/backend",
+  "command": "/nix/store/f0m6caffiykyvsjim9376a3hx2yj2ghj-gcc-wrapper-14.2.1.20250322/bin/g++  -I/home/amarnath/Projects/brotherql800/backend/include -I/home/amarnath/Projects/brotherql800/backend/deps -I/nix/store/2474w2chiwbxaalxin0m0hdhf18nb6zq-libusb-1.0.28-dev/include/libusb-1.0 -std=c++23 -o CMakeFiles/brotherql800.dir/src/port.cc.o -c /home/amarnath/Projects/brotherql800/backend/src/port.cc",
+  "file": "/home/amarnath/Projects/brotherql800/backend/src/port.cc",
+  "output": "CMakeFiles/brotherql800.dir/src/port.cc.o"
 }
 ]

@@ -129,6 +129,30 @@ brotherql800/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/build
 .PHONY : brotherql800/fast
 
+src/image.o: src/image.cc.o
+.PHONY : src/image.o
+
+# target to build an object file
+src/image.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/image.cc.o
+.PHONY : src/image.cc.o
+
+src/image.i: src/image.cc.i
+.PHONY : src/image.i
+
+# target to preprocess a source file
+src/image.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/image.cc.i
+.PHONY : src/image.cc.i
+
+src/image.s: src/image.cc.s
+.PHONY : src/image.s
+
+# target to generate assembly for a file
+src/image.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/image.cc.s
+.PHONY : src/image.cc.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +177,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/port.o: src/port.cc.o
+.PHONY : src/port.o
+
+# target to build an object file
+src/port.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/port.cc.o
+.PHONY : src/port.cc.o
+
+src/port.i: src/port.cc.i
+.PHONY : src/port.i
+
+# target to preprocess a source file
+src/port.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/port.cc.i
+.PHONY : src/port.cc.i
+
+src/port.s: src/port.cc.s
+.PHONY : src/port.s
+
+# target to generate assembly for a file
+src/port.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/brotherql800.dir/build.make CMakeFiles/brotherql800.dir/src/port.cc.s
+.PHONY : src/port.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... brotherql800"
+	@echo "... src/image.o"
+	@echo "... src/image.i"
+	@echo "... src/image.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/port.o"
+	@echo "... src/port.i"
+	@echo "... src/port.s"
 .PHONY : help
 
 
